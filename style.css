@@ -1,0 +1,412 @@
+    /* ===================
+        layout
+    =================== */
+    body{
+       
+        margin: auto;
+        width: 100%;
+        height: 3808px;
+    }
+    html{
+        font-size: 1px;
+        font-family: 'Bai Jamjuree';
+        box-sizing: border-box;
+    }
+    .mainbox{
+        height: 3808px;
+        width: 100%;
+        max-width: 1440;
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+    /* ==============================  
+    HEADER content
+    =============================== */
+    #BG{
+        width:100%
+    }
+    .header{
+        display: flex;
+       flex-direction: column;
+    }
+    .headerpics{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+    position: relative;
+    bottom: 50%;
+    width: 10%;
+    }
+
+    .buttons{
+        width: 103%;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        color:white;
+        font-size:25pt;
+        font-weight: 600;}
+    .IOSdownload{
+        width:250px;
+        height: 100px;
+        background-color:#26bba5;
+        flex: .3;
+        border-radius:50px;
+    }
+    .IOSdownload a{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        height: 100%
+    }
+    .MACdownload{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:250px;
+        height: 100px;
+        background-color:#6174ff;
+        flex:.3;
+        border-radius:50px;
+    }
+    .MACdownload a{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        height: 100%
+    }
+    /* ==============================  
+    content1 content
+    =============================== */
+    .content1{
+        display: flex;
+        flex-direction: column;
+    }
+    .content1p2{
+    
+        display: flex;
+        gap:  12%
+    }
+    #compIMG{
+        
+       width: 60%;
+    }
+      /* ==============================  
+    content2 content
+    =============================== */
+    .content2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #devicesIMG{
+        height: 90%;
+    }
+    /* ==============================  
+    content3 content
+    =============================== */
+    .content3{
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+    }
+    .content3p2{
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+    }
+    .content3p2 .part1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;       
+    }
+    .content3p2 .part1 h3{
+        line-height: 45rem; 
+    }
+    .content3p2 .part2{
+        gap: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .content3p1{
+        
+        text-align: center;
+        margin: auto;
+        width: 40%;
+        overflow-wrap: break-word;
+    }
+    .content3p2 .part3{
+        gap: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    /* ==============================  
+    content4 content
+    =============================== */
+    .content4{
+       
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #icons{
+        display: flex;
+        justify-content: center;
+        gap: 9%;
+        height: 25%;
+    }
+    #icons img{
+        height: 60%;
+    }
+    .content4p2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        text-align: center;
+        height: 75%;
+    }
+    /* ==============================  
+    footer
+    =============================== */
+    .main{
+        margin-top: 150px;
+        align-items: center;
+        display:flex;
+        }
+        .main .content1{ 
+        width: 10%;
+        }
+        .main .content1 img{
+        width: 50%;
+        }
+        .main .content2{
+        width: 85%;
+        }
+        .main .socials{
+        width: 15%;
+        display:flex;
+        gap: 5%;  
+        }
+        nav{
+        width:80%;
+        }
+        ol{     
+        display: flex;
+        flex-wrap: warp;
+        width: 60%;
+        gap: 10%;
+        justify-content: center;
+        }
+        nav a{
+        text-decoration:none
+        }       
+
+    /* ========================    
+        typography
+    ====================== */
+    p{
+        color: black;
+        opacity: 60%;
+        text-align: center; 
+        line-height: 20rem;
+        font-size: 18rem;
+    }
+    .content1p2 p{
+        text-align: start;
+        line-height: 20rem;
+    }
+   .text{
+    margin: auto;
+    width: 70%;
+    overflow-wrap: break-word;
+    
+   }
+    h1 {
+        text-align: center; 
+        color: black;
+        font-size: 50rem;
+        opacity: 90%;
+    }
+    h2{
+        text-align: center; 
+        color: black;
+        font-size: 35rem;
+        opacity: 90%;
+    }
+    h3{
+        opacity: 80%;
+        font-size: 25rem;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a :hover{
+        color:darkblue
+    }
+    /* -------------------------------------------------------------- */
+    @media  (max-width: 600px) 
+{
+        html{
+            font-size: .9px;
+        }
+        body{
+            max-width: 375px;
+            
+        }
+        .mainbox{         
+            width: 100%;
+        }
+        .text{
+            text-align: center;
+            width: 100%;
+            overflow-wrap: break-word;
+        }
+        p{
+            text-align: center;
+        }
+        
+ /* ==============================  
+    HEADER content
+    =============================== */
+        .logo{
+            width: 20%;
+        }
+        #BG{
+           width: 100%;
+        }
+        
+        .buttons{
+            justify-content: bottom;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .IOSdownload{
+            width: 100%;
+            height: 200px;
+        }
+        .MACdownload{
+            width: 100%;
+        }
+   /* ==============================  
+    content1 content
+    =============================== */
+        .content1p2{
+            gap: 0;
+            flex-direction: column;
+        }
+        #compIMG{
+        width: 100%;
+        margin: auto;
+        } 
+ /* ==============================  
+    content2 content
+    =============================== */
+        #devicesIMG{
+            width: 100%;
+            height: auto;
+        }
+ /* ==============================  
+    content3 content
+    =============================== */
+    .content3{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .content3p2{
+        flex-wrap: wrap;
+        gap: 50%;
+    }
+    .content3p1{
+        width: 100%;
+    }
+    /* ==============================  
+    content4 content
+    =============================== */
+    .content4{
+        width: 100%;
+    }
+    #icons{
+        flex-wrap: wrap;
+        gap: 25%;
+        align-content: center;
+    }
+    #icons img{
+        height: 20%;
+    }
+    .text2{
+        text-align: center;
+        margin: auto;
+        margin-bottom: 2px;
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+    .content4p2{
+        gap:0;
+        height: 60%;
+    }
+    
+    /* ==============================  
+    footer
+    =============================== */
+    .main{
+        margin-top: 0;
+
+        flex-direction:column;
+        align-items: center;
+        display:flex;
+    }
+    .main .content1{ 
+        display:flex;
+        align-items: center;
+        width:110%;
+    }
+    .main .content1 img{
+         width: 10%;
+    }
+    .main .content2{
+        width:150%
+    }
+    .main .socials{
+        display:flex;
+        gap:5%;
+        margin-right: 50px;
+    }
+    .socials img{
+        margin-right: 15px; 
+    }
+    nav{ 
+         width:90%;
+    }
+    ol{  
+        align-content:center;
+        width :85%;
+        list-style:none;
+        flex-direction:column;
+        display: flex;
+    }
+    ol p {
+        margin:1px
+    }
+    nav a{
+        display:inline;
+        text-decoration:none
+    }   
+} 
